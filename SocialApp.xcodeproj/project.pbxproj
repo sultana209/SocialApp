@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1238130F20653CA100CC55F0 /* FencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238130E20653CA100CC55F0 /* FencyView.swift */; };
+		1238131220653CBE00CC55F0 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238131120653CBE00CC55F0 /* Constans.swift */; };
+		123813142065454C00CC55F0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123813132065454C00CC55F0 /* RoundButton.swift */; };
+		123813162065497C00CC55F0 /* fencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123813152065497C00CC55F0 /* fencyTextField.swift */; };
+		1238131820654B3A00CC55F0 /* FencyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238131720654B3A00CC55F0 /* FencyButton.swift */; };
 		1277D6A520630519003692E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D6A420630519003692E4 /* AppDelegate.swift */; };
 		1277D6A720630519003692E4 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277D6A620630519003692E4 /* SignInVC.swift */; };
 		1277D6AA20630519003692E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277D6A820630519003692E4 /* Main.storyboard */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1238130E20653CA100CC55F0 /* FencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FencyView.swift; sourceTree = "<group>"; };
+		1238131120653CBE00CC55F0 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		123813132065454C00CC55F0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		123813152065497C00CC55F0 /* fencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fencyTextField.swift; sourceTree = "<group>"; };
+		1238131720654B3A00CC55F0 /* FencyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FencyButton.swift; sourceTree = "<group>"; };
 		1277D6A120630519003692E4 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1277D6A420630519003692E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1277D6A620630519003692E4 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -42,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1238131020653CA800CC55F0 /* Utillies */ = {
+			isa = PBXGroup;
+			children = (
+				1238131120653CBE00CC55F0 /* Constans.swift */,
+			);
+			path = Utillies;
+			sourceTree = "<group>";
+		};
 		1277D69820630519003692E4 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +81,7 @@
 		1277D6A320630519003692E4 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				1238131020653CA800CC55F0 /* Utillies */,
 				1277D6B820630C3D003692E4 /* Model */,
 				1277D6B720630C38003692E4 /* View */,
 				1277D6B620630C30003692E4 /* Controller */,
@@ -87,6 +106,10 @@
 		1277D6B720630C38003692E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1238130E20653CA100CC55F0 /* FencyView.swift */,
+				123813132065454C00CC55F0 /* RoundButton.swift */,
+				123813152065497C00CC55F0 /* fencyTextField.swift */,
+				1238131720654B3A00CC55F0 /* FencyButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1277D6A720630519003692E4 /* SignInVC.swift in Sources */,
+				123813142065454C00CC55F0 /* RoundButton.swift in Sources */,
+				1238130F20653CA100CC55F0 /* FencyView.swift in Sources */,
+				123813162065497C00CC55F0 /* fencyTextField.swift in Sources */,
+				1238131820654B3A00CC55F0 /* FencyButton.swift in Sources */,
+				1238131220653CBE00CC55F0 /* Constans.swift in Sources */,
 				1277D6A520630519003692E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
