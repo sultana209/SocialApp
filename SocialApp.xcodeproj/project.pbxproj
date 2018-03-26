@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120BE5E3206939C500D6572D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 120BE5E2206939C500D6572D /* GoogleService-Info.plist */; };
 		1238130F20653CA100CC55F0 /* FencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238130E20653CA100CC55F0 /* FencyView.swift */; };
 		1238131220653CBE00CC55F0 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238131120653CBE00CC55F0 /* Constans.swift */; };
 		123813142065454C00CC55F0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123813132065454C00CC55F0 /* RoundButton.swift */; };
@@ -17,11 +18,12 @@
 		1277D6AA20630519003692E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277D6A820630519003692E4 /* Main.storyboard */; };
 		1277D6AC20630519003692E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1277D6AB20630519003692E4 /* Assets.xcassets */; };
 		1277D6AF20630519003692E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277D6AD20630519003692E4 /* LaunchScreen.storyboard */; };
-		1277D6BA20630E8B003692E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1277D6B920630E8B003692E4 /* GoogleService-Info.plist */; };
 		2BAF938CB4584B5047741160 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF1233DAEFED57256DD5A56 /* Pods_SocialApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120BE5E1206933AE00D6572D /* SocialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp.entitlements; sourceTree = "<group>"; };
+		120BE5E2206939C500D6572D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1238130E20653CA100CC55F0 /* FencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FencyView.swift; sourceTree = "<group>"; };
 		1238131120653CBE00CC55F0 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		123813132065454C00CC55F0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -34,7 +36,6 @@
 		1277D6AB20630519003692E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1277D6AE20630519003692E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1277D6B020630519003692E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1277D6B920630E8B003692E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3BEAC19806FCDD0E133599A1 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 		A5EA75D4FFE79EDFC20889A1 /* Pods-SocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BAF1233DAEFED57256DD5A56 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +82,7 @@
 		1277D6A320630519003692E4 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				120BE5E1206933AE00D6572D /* SocialApp.entitlements */,
 				1238131020653CA800CC55F0 /* Utillies */,
 				1277D6B820630C3D003692E4 /* Model */,
 				1277D6B720630C38003692E4 /* View */,
@@ -90,7 +92,7 @@
 				1277D6AB20630519003692E4 /* Assets.xcassets */,
 				1277D6AD20630519003692E4 /* LaunchScreen.storyboard */,
 				1277D6B020630519003692E4 /* Info.plist */,
-				1277D6B920630E8B003692E4 /* GoogleService-Info.plist */,
+				120BE5E2206939C500D6572D /* GoogleService-Info.plist */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -174,6 +176,11 @@
 					1277D6A020630519003692E4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -201,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1277D6AF20630519003692E4 /* LaunchScreen.storyboard in Resources */,
-				1277D6BA20630E8B003692E4 /* GoogleService-Info.plist in Resources */,
+				120BE5E3206939C500D6572D /* GoogleService-Info.plist in Resources */,
 				1277D6AC20630519003692E4 /* Assets.xcassets in Resources */,
 				1277D6AA20630519003692E4 /* Main.storyboard in Resources */,
 			);
@@ -235,6 +242,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -242,6 +252,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -418,6 +431,7 @@
 			baseConfigurationReference = A5EA75D4FFE79EDFC20889A1 /* Pods-SocialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialApp/SocialApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FLGL8YTCUV;
 				INFOPLIST_FILE = SocialApp/Info.plist;
@@ -434,6 +448,7 @@
 			baseConfigurationReference = 3BEAC19806FCDD0E133599A1 /* Pods-SocialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialApp/SocialApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FLGL8YTCUV;
 				INFOPLIST_FILE = SocialApp/Info.plist;
