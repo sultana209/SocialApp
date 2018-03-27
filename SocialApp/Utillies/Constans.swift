@@ -10,3 +10,5 @@ import UIKit
 
 let SHADOW_GRAY = 120.0 / 255.0
 
+let Key_UId = "uid"
+

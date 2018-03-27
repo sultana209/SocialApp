@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120935DC206B038A002BF898 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120935DB206B038A002BF898 /* FeedVC.swift */; };
 		120BE5E3206939C500D6572D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 120BE5E2206939C500D6572D /* GoogleService-Info.plist */; };
 		1238130F20653CA100CC55F0 /* FencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238130E20653CA100CC55F0 /* FencyView.swift */; };
 		1238131220653CBE00CC55F0 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238131120653CBE00CC55F0 /* Constans.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120935DB206B038A002BF898 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		120BE5E1206933AE00D6572D /* SocialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp.entitlements; sourceTree = "<group>"; };
 		120BE5E2206939C500D6572D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1238130E20653CA100CC55F0 /* FencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FencyView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				1277D6A620630519003692E4 /* SignInVC.swift */,
+				120935DB206B038A002BF898 /* FeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -257,6 +261,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -291,6 +296,7 @@
 				123813142065454C00CC55F0 /* RoundButton.swift in Sources */,
 				1238130F20653CA100CC55F0 /* FencyView.swift in Sources */,
 				123813162065497C00CC55F0 /* fencyTextField.swift in Sources */,
+				120935DC206B038A002BF898 /* FeedVC.swift in Sources */,
 				1238131820654B3A00CC55F0 /* FencyButton.swift in Sources */,
 				1238131220653CBE00CC55F0 /* Constans.swift in Sources */,
 				1277D6A520630519003692E4 /* AppDelegate.swift in Sources */,
