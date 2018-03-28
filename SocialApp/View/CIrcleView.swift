@@ -1,15 +1,15 @@
 //
-//  FencyView.swift
+//  CIrcleView.swift
 //  SocialApp
 //
-//  Created by A K M Saleh Sultan on 3/23/18.
+//  Created by A K M Saleh Sultan on 3/28/18.
 //  Copyright © 2018 A K M Saleh Sultan. All rights reserved.
 //
 
 import UIKit
 
-class FencyView: UIView {
-
+class CIrcleView: UIImageView {
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -18,7 +18,14 @@ class FencyView: UIView {
         layer.shadowOpacity = 0.8
         layer.shadowRadius = 5.0
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
-        layer.cornerRadius = 2.0
+      
+        
     }
 
+    override func draw(_ rect: CGRect) {
+        super.draw(rect)
+        
+        layer.cornerRadius = self.frame.width / 2
+        
+    }
 }
