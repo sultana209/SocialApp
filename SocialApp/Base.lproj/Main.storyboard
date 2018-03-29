@@ -154,7 +154,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cAS-AF-XJ5" customClass="FencyView" customModule="SocialApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="mBv-5K-TLu">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="mBv-5K-TLu">
                                         <rect key="frame" x="16" y="20" width="56" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="56" id="Hcy-sE-Ox6"/>
@@ -169,6 +169,7 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="mBv-5K-TLu" firstAttribute="top" secondItem="cAS-AF-XJ5" secondAttribute="top" constant="20" id="Cdg-nZ-5NC"/>
                                     <constraint firstItem="HCE-W7-vUl" firstAttribute="centerY" secondItem="mBv-5K-TLu" secondAttribute="centerY" id="CjZ-mr-17a"/>
@@ -177,6 +178,9 @@
                                     <constraint firstAttribute="height" constant="65" id="Lca-oe-KWO"/>
                                     <constraint firstItem="mBv-5K-TLu" firstAttribute="leading" secondItem="cAS-AF-XJ5" secondAttribute="leading" constant="16" id="sIg-HI-gmS"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gdK-oo-7bQ" appends="YES" id="sDf-2h-NnO"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqY-FD-E5Y" customClass="FencyView" customModule="SocialApp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="81" width="343" height="65"/>
@@ -346,6 +350,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wb5-1U-eg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gdK-oo-7bQ">
+                    <connections>
+                        <action selector="SignOutTapped:" destination="4Go-eG-90C" id="iMJ-z8-Vug"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="941.60000000000002" y="80.50974512743629"/>
         </scene>
