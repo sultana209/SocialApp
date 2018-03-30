@@ -10,6 +10,7 @@
 		120935DC206B038A002BF898 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120935DB206B038A002BF898 /* FeedVC.swift */; };
 		120BE5E3206939C500D6572D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 120BE5E2206939C500D6572D /* GoogleService-Info.plist */; };
 		1215671B206C4EDD0011FDF9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215671A206C4EDD0011FDF9 /* PostCell.swift */; };
+		122AE19B206E91BC0061D3D8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122AE19A206E91BC0061D3D8 /* Post.swift */; };
 		1238130F20653CA100CC55F0 /* FencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238130E20653CA100CC55F0 /* FencyView.swift */; };
 		1238131220653CBE00CC55F0 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238131120653CBE00CC55F0 /* Constans.swift */; };
 		123813142065454C00CC55F0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123813132065454C00CC55F0 /* RoundButton.swift */; };
@@ -30,6 +31,7 @@
 		120BE5E1206933AE00D6572D /* SocialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp.entitlements; sourceTree = "<group>"; };
 		120BE5E2206939C500D6572D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1215671A206C4EDD0011FDF9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		122AE19A206E91BC0061D3D8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1238130E20653CA100CC55F0 /* FencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FencyView.swift; sourceTree = "<group>"; };
 		1238131120653CBE00CC55F0 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		123813132065454C00CC55F0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		1277D6B820630C3D003692E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				122AE19A206E91BC0061D3D8 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				1277D6A720630519003692E4 /* SignInVC.swift in Sources */,
 				123813142065454C00CC55F0 /* RoundButton.swift in Sources */,
 				1238130F20653CA100CC55F0 /* FencyView.swift in Sources */,
+				122AE19B206E91BC0061D3D8 /* Post.swift in Sources */,
 				123813162065497C00CC55F0 /* fencyTextField.swift in Sources */,
 				120935DC206B038A002BF898 /* FeedVC.swift in Sources */,
 				12D96B63206D4E3F00D45AF9 /* DataServices.swift in Sources */,
